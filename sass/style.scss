@@ -1,7 +1,23 @@
 body {
-  background: linear-gradient(
-    to bottmo right,
-    rgb(131, 173, 252),
-    rgb(131, 131, 131)
-  );
+  background: linear-gradient(to right, rgb(131, 173, 252), rgb(131, 131, 131));
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 40px auto;
+  }
+}
+
+.btn {
+  padding: 5px 15px;
+  margin: 0 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #00bfff;
+  border-radius: 8px;
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
 }
