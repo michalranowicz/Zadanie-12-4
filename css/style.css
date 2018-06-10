@@ -1,29 +1,7 @@
-body {
-  background: linear-gradient(to right, #83adfc, #838383);
-}
+body { background: linear-gradient(to right, #83adfc, #838383); }
 
-.container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-}
+.container { display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
-.container p {
-  margin: 40px auto;
-}
+.container p { margin: 40px auto; }
 
-.btn {
-  padding: 5px 15px;
-  margin: 0 5px;
-  font-size: 20px;
-  color: white;
-  background-color: #00bfff;
-  border-radius: 8px;
-  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7);
-}
-/*# sourceMappingURL=style.css.map */
+.btn { padding: 5px 15px; margin: 0 5px; font-size: 20px; color: white; background-color: #00bfff; border-radius: 8px; box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7); }
