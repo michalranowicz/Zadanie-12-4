@@ -4,4 +4,4 @@ body { background: linear-gradient(to right, #83adfc, #838383); }
 
 .container p { margin: 40px auto; }
 
-.btn { padding: 5px 15px; margin: 0 5px; font-size: 20px; color: white; background-color: #00bfff; border-radius: 8px; box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.7); }
+.btn { padding: 5px 15px; margin: 0 5px; font-size: 20px; color: white; background-color: #00bfff; border-radius: 8px; box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.7); }
